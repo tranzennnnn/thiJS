@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+</head>
+<body>
+    <h1>Add new</h1>
+    <form action="index.html">
+        <div class="mb-3">
+          <label for="exampleInputEmail1" class="form-label">Product Name</label>
+          <input type="text" class="form-control" id="prdName" aria-describedby="emailHelp">
+          <p class="message-error"></p>
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Product Description</label>
+          <input type="text" class="form-control" id="desc">
+        </div>
+        <div class="mb-3">
+          <label for="exampleInputPassword1" class="form-label">Product Image</label>
+          <input type="text" class="form-control" id="image">
+          <!-- <label class="form-check-label" for="exampleCheck1">Check me out</label> -->
+        </div>
+        <button type="submit" class="btn btn-primary" id="btn-submit">Add new product</button>
+      </form>
+    <script src="add.js" type="module"></script>
+</body>
+</html>
